@@ -1,0 +1,44 @@
+body {
+    background-color: white;
+    /* this code is for the background color  */
+}
+
+li {
+    float: left; 
+    /* this code is to aligne horizontal */
+}
+
+li a {
+    display: block;
+    /* this code is to display the block */
+    color: black;
+    /* this code is for the color of the text */
+    text-align: center;
+    /* this code is to align the text in the center */
+    padding: 14px 16px;
+    /* this code is for the padding of the text */
+    text-decoration: none;
+    /* this code is to remove the underline from the text */
+    font-size: 20px;
+}
+
+li a:hover {
+    background-color: #08eb44;
+    /* this code is for the background color when hover */
+    color: white;
+    /* this code is for the color of the text when hover */
+}
+
+ul {
+    list-style-type: none;
+    /* this code is to remove the bullet points from the list */
+    margin: 0;
+    /* this code is for the margin of the list */
+    padding: 0;
+    /* this code is for the padding of the list */
+    overflow: hidden;
+    /* this code is to remove the overflow from the list */
+    background-color: #333;
+    /* this code is for the background color of the list */
+}
+
